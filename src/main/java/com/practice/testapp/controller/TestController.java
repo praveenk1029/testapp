@@ -15,6 +15,6 @@ public class TestController {
     
     @GetMapping("/getNames")
     public List<String> getNames(){
-        return Arrays.asList("Sam", "Nicole", "Rachel");
+        return Arrays.asList("Sam", "Nicole", "Rachel", "Nick");
     }
 }
