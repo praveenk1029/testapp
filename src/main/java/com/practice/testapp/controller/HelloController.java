@@ -8,7 +8,7 @@ public class HelloController {
 
 @GetMapping("/getMessage")
 public String getMessage(){
-    //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
+    //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
     return "Hello world!";
 }
 }
