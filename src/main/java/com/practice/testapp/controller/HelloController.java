@@ -10,8 +10,8 @@ public class HelloController {
     public String getMessage() {
         //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
         String name = "Sam";
+        String address = "Karimnagar";
         return "Hello world!";
     }
-
 }
 
