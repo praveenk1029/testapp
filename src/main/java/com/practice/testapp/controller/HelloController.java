@@ -9,6 +9,7 @@ public class HelloController {
 @GetMapping("/getMessage")
 public String getMessage(){
     //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
+    String address = "Karimnagar";
     return "Hello world!";
 }
 }
