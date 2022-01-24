@@ -6,10 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-@GetMapping("/getMessage")
-public String getMessage(){
-    //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
-    return "Hello world!";
-}
+    @GetMapping("/getMessage")
+    public String getMessage() {
+        //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
+        String name = "Sam";
+        return "Hello world!";
+    }
+
 }
 
